@@ -1,0 +1,207 @@
+#projects {
+  width: 90%;
+  margin: auto;
+}
+#projects h1 {
+  font-size: 8rem;
+  margin-top: 30rem;
+}
+#projects p {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+#projects h5 {
+  margin-bottom: 2rem;
+}
+#projects a button {
+  display: inline-flex;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.projcts {
+  margin-top: 10rem;
+}
+.travelly {
+  /* margin-left: -5rem; */
+}
+.travelly h2 {
+  margin-bottom: 2rem;
+}
+.travelly-flip-card {
+  width: 513px;
+  height: 200px;
+}
+.astro-connection {
+  margin-top: 10rem;
+  text-align: left;
+  margin-left: -7rem;
+  margin-right: -7rem;
+
+}
+.astro-connection h2 {
+  text-align: left;
+  margin-bottom: 2rem;
+  /* margin-right: 10rem; */
+}
+.watch-list h2{
+  text-align: left;
+  margin-bottom: 2rem;
+  margin-top: 10rem;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 512px;
+  height: 300px;
+  margin-left: 60px;
+  margin-top: 0px;
+  margin-bottom: 100px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: white;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+.underline {
+  text-decoration: underline;
+  margin-bottom: 2rem;
+  margin-right: 10rem;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .project-card {
+    display: none;
+  }
+  .mobile-gif {
+    height: 230px;
+    width: 300px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  .mobile {
+    margin-bottom: 100px;
+  }
+  .cell {
+    margin-top: 190px;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 768px) {
+  .header {
+    display: none;
+  }
+  .mobile-cell {
+    margin-top: 100px;
+  }
+  .mobile {
+    margin-bottom: 100px;
+  }
+  /* for project gif responsiveness */
+  .mobile-gif {
+    height: 330px;
+    width: 400px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  .project-card {
+    display: none;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .card {
+    max-width: 600px;
+  }
+
+  .mobile-cell {
+    margin-top: 100px;
+    /* padding-top: -200px; */
+  }
+
+  .mobile-gif {
+    height: 330px;
+    width: 400px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  .mobile {
+    margin-bottom: 100px;
+
+    display: inline-flex;
+  }
+  .project-card {
+    display: none;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .card {
+    max-width: 600px;
+  }
+  /* .mobile{
+    display: none;
+  } */
+  .mobile-gif {
+    display: none;
+  }
+
+  .project-card {
+    display: inline-block;
+    /* margin-left: -10px; */
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .card {
+    max-width: 600px;
+  }
+  .mobile {
+    display: none;
+  }
+  .project-card {
+    display: inline-block;
+    /* margin-left: -10px; */
+  }
+}
