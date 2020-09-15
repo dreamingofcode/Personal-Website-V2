@@ -1,8 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
+A second version of my original personal website laucnh with easier navigation, better readability, and much more visiually aesthetics. Checkout my latest portfolio additions and learn more about me!
 
 ### `yarn start`
 
