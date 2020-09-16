@@ -315,6 +315,51 @@ nav ul {
   margin-bottom: 10rem;
   margin-top: 5rem;
   /* margin: 5px; */
+}.headshot {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  margin-top: -2rem;
+}
+.contact-symbol {
+  height: 23px;
+  margin-right: 1rem;
+}
+#contact {
+  width: 80%;
+  margin: auto;
+  margin-top: 10rem;
+  position: relative;
+  text-align: center;
+}
+#contact h1 {
+  margin-bottom: 1rem;
+  font-size: 8rem;
+  text-align: center;
+}
+#contact p {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+.contact-info {
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+  text-align: left;
+}
+
+#contact a h6 {
+  display: inline;
+  border: black 2px solid;
+  border-radius: 15px;
+  margin-right: 5rem;
+  padding: 2rem;
+  max-width: 100px;
+  vertical-align: middle;
+}
+#contact a h6:hover {
+  background: black;
+  color: white;
 }
 .form-section {
   min-height: 80vh;
