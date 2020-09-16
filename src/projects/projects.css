@@ -22,9 +22,7 @@
 .projcts {
   margin-top: 10rem;
 }
-.travelly {
-  /* margin-left: -5rem; */
-}
+
 .travelly h2 {
   margin-bottom: 2rem;
 }
@@ -107,101 +105,3 @@
 }
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-  .project-card {
-    display: none;
-  }
-  .mobile-gif {
-    height: 230px;
-    width: 300px;
-    margin-top: 30px;
-    margin-bottom: 10px;
-  }
-  .mobile {
-    margin-bottom: 100px;
-  }
-  .cell {
-    margin-top: 190px;
-  }
-}
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 768px) {
-  .header {
-    display: none;
-  }
-  .mobile-cell {
-    margin-top: 100px;
-  }
-  .mobile {
-    margin-bottom: 100px;
-  }
-  /* for project gif responsiveness */
-  .mobile-gif {
-    height: 330px;
-    width: 400px;
-    margin-top: 30px;
-    margin-bottom: 10px;
-  }
-  .project-card {
-    display: none;
-  }
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-  .card {
-    max-width: 600px;
-  }
-
-  .mobile-cell {
-    margin-top: 100px;
-    /* padding-top: -200px; */
-  }
-
-  .mobile-gif {
-    height: 330px;
-    width: 400px;
-    margin-top: 30px;
-    margin-bottom: 10px;
-  }
-  .mobile {
-    margin-bottom: 100px;
-
-    display: inline-flex;
-  }
-  .project-card {
-    display: none;
-  }
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-  .card {
-    max-width: 600px;
-  }
-  /* .mobile{
-    display: none;
-  } */
-  .mobile-gif {
-    display: none;
-  }
-
-  .project-card {
-    display: inline-block;
-    /* margin-left: -10px; */
-  }
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-  .card {
-    max-width: 600px;
-  }
-  .mobile {
-    display: none;
-  }
-  .project-card {
-    display: inline-block;
-    /* margin-left: -10px; */
-  }
-}
