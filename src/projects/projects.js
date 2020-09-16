@@ -4,6 +4,8 @@ import Travelly from './Travelly';
 import AstroConnection from './AstroConnection';
 import WatchList from './WatchList'
 import './projects.css';
+import '../responsive.css'
+
 function Projects() {
   return (
     <div id="projects">

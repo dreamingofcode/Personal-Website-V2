@@ -1,0 +1,263 @@
+@media screen and (max-width: 1332px) {
+  html {
+    font-size: 53%;
+  }
+  .splash {
+    display: none;
+  }
+  svg {
+    width: 80%;
+  }
+  nav {
+    width: 100%;
+  }
+  
+  /* /////  Projects     ////// */
+  .card {
+    max-width: 600px;
+  }
+  .header {
+    display: flex;
+  }
+ 
+  .mobile-cell {
+    margin-top: 100px;
+    padding-top: -200px;
+  }
+  .easel{
+      /* display: inline; */
+  }
+}
+
+@media screen and (max-width: 754px) {
+  html {
+    font-size: 45%;
+  }
+  svg {
+    height: 60%;
+  }
+  .main-head {
+    width: 100%;
+  }
+  nav .logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 20rem;
+    flex: 1 1 20rem;
+    margin-top: 2rem;
+  }
+  nav ul {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 60rem;
+    flex: 1 1 60rem;
+    margin: 2rem 0rem;
+  }
+
+  .intro-text {
+    margin-top: 5rem;
+    text-align: center;
+  }
+  .intro-images {
+    text-align: center;
+  }
+  .intro-social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+  .intro-social a {
+    margin: 2rem;
+  }
+.easel{
+    /* display: none; */
+}
+  form {
+    padding: 0rem;
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 610px) {
+  * {
+    overflow-x: hidden;
+  }
+  .easel{
+    /* display: none; */
+}
+  .header {
+    display: none;
+  }
+  .mobile-header {
+    background-color: rgba(58, 64, 97, 0.438);
+  }
+  .mobile-cell {
+    margin-top: 150px;
+    margin-bottom: 300px;
+  }
+  .mobile-language-icons {
+    display: none;
+  }
+  
+  .card {
+    width: 100px;
+  }
+
+  .header {
+    display: none;
+  }
+  
+  .mobile-cell {
+    margin-bottom: 00px;
+  }
+  .mobile-language-icons {
+    display: none;
+  }
+ 
+  .card {
+    width: 100px;
+  }
+  .initial-intro {
+    font-size: 25px;
+    margin-top: 60px;
+    margin-bottom: 450px;
+    background-color: '';
+    border: none;
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+
+  .header {
+    display: none;
+  }
+  .mobile-cell {
+    margin-top: 100px;
+  }
+  
+
+  .project-card {
+    display: none;
+  }
+  .mobile-gif {
+    height: 230px;
+    width: 300px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  .mobile {
+    margin-bottom: 100px;
+  }
+  .cell {
+    margin-top: 190px;
+  }
+}
+
+/* ///////////////// project card css/////////// */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 768px) {
+    
+  .header {
+    display: none;
+  }
+  .mobile-cell {
+    margin-top: 100px;
+  }
+  .mobile {
+    margin-bottom: 100px;
+  }
+  /* for project gif responsiveness */
+  .mobile-gif {
+    height: 330px;
+    width: 400px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  .project-card {
+    display: none;
+  }
+  .flip-card button {
+    display: in;
+  }
+
+  .card {
+    max-width: 600px;
+  }
+  .flip-card {
+    display: none;
+  }
+  .mobile-cell {
+    margin-top: 100px;
+    /* padding-top: -200px; */
+  }
+
+  .mobile-gif {
+    height: 330px;
+    width: 400px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  .mobile {
+    margin-bottom: 100px;
+
+    display: inline-flex;
+  }
+  .project-card {
+    display: none;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .card {
+    max-width: 600px;
+  }
+  /* .mobile{
+      display: none;
+    } */
+  .mobile-gif {
+    display: none;
+  }
+
+  .project-card {
+    display: inline-block;
+    /* margin-left: -10px; */
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .card {
+    max-width: 600px;
+  }
+  .mobile {
+    display: none;
+  }
+  .project-card {
+    display: inline-block;
+    /* margin-left: -10px; */
+  }
+}

@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import './responsive.css'
 import FadeIn from 'react-fade-in';
 import About from './about';
 import Project from './projects/projects';
