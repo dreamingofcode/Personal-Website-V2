@@ -376,7 +376,9 @@ nav ul {
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
   flex-direction: row;
-  margin-top: 3rem;
+  text-align: center;
+  margin: auto;
+  margin-top: 13rem;
 }
 
 .form-section form {
@@ -444,6 +446,7 @@ footer {
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
   flex-direction: row;
+  margin-top: 6rem;
 }
 
 footer ul {
@@ -469,7 +472,9 @@ footer h4 {
   -ms-flex: 1 1 40rem;
   flex: 1 1 40rem;
 }
-
+footer h6{
+  color: white;
+}
 
 #about-me {
   width: 90%;

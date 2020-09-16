@@ -1,11 +1,11 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import './responsive.css'
+import './responsive.css';
 import FadeIn from 'react-fade-in';
 import About from './about';
 import Project from './projects/projects';
-import Education from './education'
+import Education from './education';
 import Contact from './contact';
 import codeSymbol from './icons/code.svg';
 import linkedIn from './icons/linked-in.svg';
@@ -26,16 +26,24 @@ function App() {
               </a>
             </li>
             <li>
-              <a className="active" href="#about-me">About</a>
+              <a className="active" href="#about-me">
+                About
+              </a>
             </li>
             <li>
-              <a className="active" href="#projects">Projects</a>
+              <a className="active" href="#projects">
+                Projects
+              </a>
             </li>
             <li>
-              <a className="active" href="#education">Education</a>
+              <a className="active" href="#education">
+                Education
+              </a>
             </li>
             <li>
-              <a className="active" href="#contact">Contact</a>
+              <a className="active" href="#contact">
+                Contact
+              </a>
             </li>
           </ul>
         </nav>
@@ -49,7 +57,8 @@ function App() {
             <h3>I am Cesar Mota, Full stack Software Engineer</h3>
             <p>
               I love to create and build beautiful web applications that people
-              need! Currently seeking new opportunities to grow - experienced in freelance and volunteer work.
+              need! Currently seeking new opportunities to grow - experienced in
+              freelance and volunteer work.
             </p>
           </FadeIn>
           <div className="intro-social">
@@ -277,24 +286,42 @@ function App() {
       <About />
       <Project />
       <button className="github-button">SEE MORE ON GITHUB</button>
-      <Education/>
+      <Education />
       <Contact />
       <footer>
         <h4>Cesar Mota &copy; 2020</h4>
         <ul>
           <li>
-            <a href="#">
-              <img src="./icons/twitter 1.svg" alt="twitter-social" />
+            <a
+              href="https://www.linkedin.com/in/cesar-mota365/"
+              target="_blank"
+            >
+              <h6>
+                {' '}
+                <i class="fab fa-linkedin fa-2x"></i> LinkedIn
+              </h6>
             </a>
           </li>
           <li>
-            {/* <a href="#">
-              <img src={instagram}alt="instagram-social" />
-            </a> */}
+            <a href="https://github.com/dreamingofcode" target="_blank">
+              {' '}
+              <h6>
+                {' '}
+                <i className="fab fa-github-square fa-2x"></i> Github
+              </h6>
+            </a>
           </li>
           <li>
-            <a href="#">
-              <img src="./icons/youtube-symbol 1.svg" alt="youtube-social" />
+            <a
+              href="https://www.canva.com/design/DADtArBgofY/owdWTSezIHEjPMvjqDH8lg/view?utm_content=DADtArBgofY&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton"
+              target="_blank"
+              download
+            >
+              {' '}
+              <h6>
+                {' '}
+                <i class="fas fa-file fa-2x"></i> Resume
+              </h6>
             </a>
           </li>
         </ul>
