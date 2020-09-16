@@ -25,16 +25,16 @@ function App() {
               </a>
             </li>
             <li>
-              <a href="#about-me">About Me</a>
+              <a className="active" href="#about-me">About</a>
             </li>
             <li>
-              <a href="#projects">Projects</a>
+              <a className="active" href="#projects">Projects</a>
             </li>
             <li>
-              <a href="#education">Education</a>
+              <a className="active" href="#education">Education</a>
             </li>
             <li>
-              <a href="#contact">Contact</a>
+              <a className="active" href="#contact">Contact</a>
             </li>
           </ul>
         </nav>
