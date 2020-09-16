@@ -510,7 +510,7 @@ footer h4 {
   margin-top: -1rem;
   margin-left: -9rem;
   z-index: -2;
- 
+ border:10px inset white solid
   }
  
 .brush {

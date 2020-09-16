@@ -19,6 +19,8 @@ const About = () => {
             <div id="easel">
               <img className="brush" src={brush} alt="Picture of me" />
               {/* <img className="me" src={me} alt="Picture of me" /> */}
+              {/* <img className="easel" src={easel} alt="Picture of me" /> */}
+
               <img className="easel" src={painting} alt="Picture of me" />
             </div>{' '}
           </Col>
