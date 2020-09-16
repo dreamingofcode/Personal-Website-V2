@@ -19,7 +19,7 @@ const AstroConnection = () => {
   return (
     <React.Fragment>
        
-      <div className="mobile">
+      {/* <div className="mobile">
         <img
           className="mobile-gif"
           src="https://media.giphy.com/media/l0od7tThpTldB4whck/giphy.gif"
@@ -52,7 +52,7 @@ const AstroConnection = () => {
         <a href="https://astr-connection.herokuapp.com/" target="_blank">
           <button>Visit Website</button>
         </a>
-      </div>
+      </div> */}
 
       <Row>
         <Col sm={12} md={12} lg={6}>

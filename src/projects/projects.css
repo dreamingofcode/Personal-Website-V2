@@ -123,6 +123,9 @@
   .cell {
     margin-top: 190px;
   }
+  #projects{
+    margin-top: -20rem;
+  }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 768px) {

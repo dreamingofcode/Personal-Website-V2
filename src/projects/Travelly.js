@@ -17,7 +17,7 @@ const Travelly = () => {
   };
   return (
     <React.Fragment>
-      <div className="mobile">
+      {/* <div className="mobile">
         <img
           className="mobile-gif"
           src="https://media.giphy.com/media/ggu2BWwMEHFVDlrUTh/giphy.gif"
@@ -35,13 +35,13 @@ const Travelly = () => {
         <a href="https://github.com/dreamingofcode/Travelly" target="_blank">
           <button>Github Repository</button>
         </a>
-      </div>
+      </div> */}
       <Row>
         <Col sm={12} md={12} lg={6}>
           <p>RUBY + REACT FULL-STACK WEB APP</p>
           <h5>
             All your travel needs in one place! Search for real-time Flight and
-            Hotel information in order to get the best deals avail able. Never
+            Hotel information in order to get the best deals available. Never
             go bored while on vacation again! Find Restaurants and Attractions
             anywhere you go with Travelly!
           </h5>
