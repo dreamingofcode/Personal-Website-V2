@@ -629,8 +629,8 @@ footer h4 {
 .easel {
   height: 600px;
   position: absolute;
-  margin-top: -32rem;
-  margin-left: -28rem;
+  margin-top: -36rem;
+  margin-left: -24rem;
   z-index: -1;
   clip: auto;
 }

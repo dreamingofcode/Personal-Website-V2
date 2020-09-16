@@ -17,7 +17,11 @@ const Travelly = () => {
   };
   return (
     <React.Fragment>
-      {/* <div className="mobile">
+      
+      <Row>
+        <Col sm={12} md={12} lg={6}>
+          <p>RUBY + REACT FULL-STACK WEB APP</p>
+          <div className="mobile">
         <img
           className="mobile-gif"
           src="https://media.giphy.com/media/ggu2BWwMEHFVDlrUTh/giphy.gif"
@@ -25,24 +29,23 @@ const Travelly = () => {
           height="300px"
         />
         <br />
-        <button
-          onClick={() => {
-            toggleVideo();
-          }}
-        >
-          {videoButton}
-        </button>
+        <a href="https://nervous-lovelace-0d5b8e.netlify.app/" target="blank">
+          <button
+            onClick={() => {
+              toggleVideo();
+            }}
+          >Visit Site!
+            {/* {videoButton} */}
+          </button>
+        </a>
         <a href="https://github.com/dreamingofcode/Travelly" target="_blank">
           <button>Github Repository</button>
         </a>
-      </div> */}
-      <Row>
-        <Col sm={12} md={12} lg={6}>
-          <p>RUBY + REACT FULL-STACK WEB APP</p>
+      </div>
           <h5>
             All your travel needs in one place! Search for real-time Flight and
-            Hotel information in order to get the best deals available. Never
-            go bored while on vacation again! Find Restaurants and Attractions
+            Hotel information in order to get the best deals available. Never go
+            bored while on vacation again! Find Restaurants and Attractions
             anywhere you go with Travelly!
           </h5>
           <h4 className="underline">Features</h4>
@@ -62,7 +65,7 @@ const Travelly = () => {
             Locate Attractions near you or by city
           </p>
           <p style={{ marginTop: '-20px' }}>
-            Use Mapbox visuals for an enhanced expirience
+            Use Mapbox visuals for an enhanced experience
           </p>
 
           <p style={{ marginTop: '-20px' }}>

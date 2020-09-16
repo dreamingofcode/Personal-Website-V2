@@ -16,7 +16,7 @@ const WatchList = () => {
   };
   return (
     <React.Fragment>
-      {/* <div className="mobile">
+      <div className="mobile">
         <img
           className="mobile-gif"
           src="https://media.giphy.com/media/cm0emWTfxAmqHeAFoR/giphy.gif"
@@ -46,7 +46,7 @@ const WatchList = () => {
           ></iframe>
           <button>Github Repository</button>
         </a>
-      </div> */}
+      </div>
       <Row>
         <Col sm={12} md={12} lg={6}>
           <p>RUBY + REACT FULL-STACK WEB APP</p>

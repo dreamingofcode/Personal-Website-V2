@@ -25,7 +25,7 @@ function App() {
               </a>
             </li>
             <li>
-              <a className="active" href="#about-me">About Me</a>
+              <a className="active" href="#about-me">About</a>
             </li>
             <li>
               <a className="active" href="#projects">Projects</a>

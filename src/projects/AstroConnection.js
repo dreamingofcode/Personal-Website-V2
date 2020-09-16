@@ -19,40 +19,6 @@ const AstroConnection = () => {
   return (
     <React.Fragment>
        
-      {/* <div className="mobile">
-        <img
-          className="mobile-gif"
-          src="https://media.giphy.com/media/l0od7tThpTldB4whck/giphy.gif"
-          alt="Astro-Connection Gif presentation"
-          height="300px"
-        />
-        <br />
-        <button
-          onClick={() => {
-            toggleVideo();
-          }}
-        >
-          {videoButton}
-        </button>
-        <a
-          href="https://github.com/dreamingofcode/Astro-Connect"
-          target="_blank"
-        >
-          <iframe
-            style={{ display: `${videoPlayer}` }}
-            width="fit-content"
-            height="fit-content"
-            src="https://www.youtube.com/embed/leuY6ShOFBA?controls=0&amp;start=60"
-            frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          />
-          <button>Github Repository</button>
-        </a>
-        <a href="https://astr-connection.herokuapp.com/" target="_blank">
-          <button>Visit Website</button>
-        </a>
-      </div> */}
 
       <Row>
         <Col sm={12} md={12} lg={6}>
@@ -108,6 +74,40 @@ const AstroConnection = () => {
         </Col>
         <Col sm={12} md={12} lg={6}>
         <h2>Astro-Connection</h2>
+      <div className="mobile">
+        <img
+          className="mobile-gif"
+          src="https://media.giphy.com/media/l0od7tThpTldB4whck/giphy.gif"
+          alt="Astro-Connection Gif presentation"
+          height="300px"
+        />
+        <br />
+        <button
+          onClick={() => {
+            toggleVideo();
+          }}
+        >
+          {videoButton}
+        </button>
+        <a
+          href="https://github.com/dreamingofcode/Astro-Connect"
+          target="_blank"
+        >
+          <iframe
+            style={{ display: `${videoPlayer}` }}
+            width="fit-content"
+            height="fit-content"
+            src="https://www.youtube.com/embed/leuY6ShOFBA?controls=0&amp;start=60"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          />
+          <button>Github Repository</button>
+        </a>
+        <a href="https://astr-connection.herokuapp.com/" target="_blank">
+          <button>Visit Website</button>
+        </a>
+      </div>
           <p>RUBY + REACT + EXPRESS FULL-STACK WEB APP</p>
           <h5>
             A social-Networking experience infused with zodiac compatibility
