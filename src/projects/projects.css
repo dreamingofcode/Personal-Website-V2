@@ -22,9 +22,7 @@
 .projcts {
   margin-top: 10rem;
 }
-.travelly {
-  /* margin-left: -5rem; */
-}
+
 .travelly h2 {
   margin-bottom: 2rem;
 }
@@ -107,6 +105,7 @@
 }
 
 /* Extra small devices (phones, 600px and down) */
+<<<<<<< HEAD
 @media only screen and (max-width: 600px) {
   .project-card {
     display: none;
@@ -206,3 +205,5 @@
     /* margin-left: -10px; */
   }
 }
+=======
+>>>>>>> 068a2335849c0c9ce333c526b494ea33a7a44c0b

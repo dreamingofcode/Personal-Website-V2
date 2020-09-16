@@ -3,6 +3,7 @@ import { Grid, Row, Col } from 'react-flexbox-grid';
 import easel from './images/easel2.png';
 import brush from './images/paintBrush.png';
 import me from './images/cesar.jpg';
+import painting from'./images/painting.png'
 import FadeIn from 'react-fade-in';
 
 
@@ -11,6 +12,7 @@ const About = () => {
     <div id="about-me">
       <Grid fluid>
         <h1>Who am I?</h1>
+<<<<<<< HEAD
         <Row center="sm" center="md">
           <Col xs={12} md={12} lg={3}>
             <img className="brush" src={brush} alt="Picture of me" />
@@ -18,9 +20,20 @@ const About = () => {
             <img className="easel" src={easel} alt="Picture of me" />
           </Col>
           <Col xs={12} md={12} lg={9}>
+=======
+        <Row center="md" center="sm">
+          <Col xs={12} sm={12} md={12} lg={3}>
+            <div id="easel">
+              <img className="brush" src={brush} alt="Picture of me" />
+              {/* <img className="me" src={me} alt="Picture of me" /> */}
+              <img className="easel" src={painting} alt="Picture of me" />
+            </div>{' '}
+          </Col>
+          <Col xs={12} sm={12} md={12} lg={9}>
+>>>>>>> 068a2335849c0c9ce333c526b494ea33a7a44c0b
             <div className="initial-about-me">
               <Row>
-                <Col xs={12} md={12} lg={12}>
+                <Col xs={12} sm={12} md={12} lg={12}>
                   <p>
                     {' '}
                     I am a Software engineer, with a passion for self
@@ -32,7 +45,11 @@ const About = () => {
             </div>
             {/* <div className="about-intro"> */}
             <Row>
+<<<<<<< HEAD
               <Col xs={12} md={12} lg={12}>
+=======
+              <Col xs={12} sm={12} md={12} lg={12}>
+>>>>>>> 068a2335849c0c9ce333c526b494ea33a7a44c0b
                 <p>
                   In April 2020, I completed an intense 4-month software
                   engineering bootcamp. During this time, I learned full-stack
@@ -42,7 +59,11 @@ const About = () => {
               </Col>
             </Row>
             <Row>
+<<<<<<< HEAD
               <Col xs={12} md={12} lg={12}>
+=======
+              <Col xs={12} sm={12} md={12} lg={12}>
+>>>>>>> 068a2335849c0c9ce333c526b494ea33a7a44c0b
                 <p>
                   I transitioned into web development after realizing that the
                   field is highly collaborative and creative . I have always
@@ -52,7 +73,11 @@ const About = () => {
               </Col>
             </Row>
             <Row>
+<<<<<<< HEAD
               <Col xs={12} md={12} lg={12}>
+=======
+              <Col xs={12} sm={12} md={12} lg={12}>
+>>>>>>> 068a2335849c0c9ce333c526b494ea33a7a44c0b
                 <p>
                   <strong>
                     Currently I am seeking full-time employment opportunities as
