@@ -4,10 +4,7 @@ import easel from './images/easel2.png';
 import brush from './images/paintBrush.png';
 import me from './images/cesar.jpg';
 import painting from'./images/painting.png'
-import FadeIn from 'react-fade-in';
-// import { withRouter } from 'react-router';
 
-// import { Link } from 'react-router-dom';
 
 const About = () => {
   return (
