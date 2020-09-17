@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import './responsive.css';
 import FadeIn from 'react-fade-in';
@@ -278,11 +277,12 @@ function App() {
           <img className="splash" src="./img/splash.svg" alt="" />
         </div>
       </section>
-
+      <FadeIn transitionDuration="9800">
       <About />
       <Project />
       <Education />
       <Contact />
+      </FadeIn>
       <footer>
         <h4>Cesar Mota &copy; 2020</h4>
         <ul>

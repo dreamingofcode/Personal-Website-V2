@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Row, Col } from 'react-flexbox-grid';
+import { Grid, Row } from 'react-flexbox-grid';
 import Travelly from './Travelly';
 import AstroConnection from './AstroConnection';
 import WatchList from './WatchList';
