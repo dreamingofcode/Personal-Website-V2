@@ -24,13 +24,15 @@ const WatchList = () => {
           height="300px"
         />
         <br />
-        <button
-          onClick={() => {
-            toggleVideo();
-          }}
-        >
-          {videoButton}
-        </button>
+        <a>
+          <button
+            onClick={() => {
+              toggleVideo();
+            }}
+          >
+            {videoButton}
+          </button>
+        </a>
         <a
           href="https://github.com/dreamingofcode/Astro-Connect"
           target="_blank"
@@ -50,22 +52,26 @@ const WatchList = () => {
       <Row>
         <Col sm={12} md={12} lg={6}>
           <p>RUBY + REACT FULL-STACK WEB APP</p>
-
           <h5>
-            A social-Networking expirience infused with zodiac compatibility
+            A social-Networking experience infused with zodiac compatibility
             matching! Get your daily and general horoscope reading today!
           </h5>
-
           <h4 className="underline">Features</h4>
-          <p style={{ marginTop: '-20px' }}>User Account CRUD actions</p>
-          <p style={{ marginTop: '-20px' }}>
-            Create a WatchList and add movies
-          </p>
-          <p style={{ marginTop: '-20px' }}>
-            Mark movies in WatchList as Watched or Remove
-          </p>
-          <p style={{ marginTop: '-20px' }}>Upload Movies to WatchList API</p>
-          <p style={{ marginTop: '-20px' }}>Filter movie genres</p>
+          <ul>
+            <li style={{ marginTop: '-20px' }}>User Account CRUD actions</li>
+            <li style={{ marginTop: '-20px' }}>User Authentication</li>
+
+            <li style={{ marginTop: '-20px' }}>
+              Create a WatchList and add movies
+            </li>
+            <li style={{ marginTop: '-20px' }}>
+              Mark movies in WatchList as Watched or Remove
+            </li>
+            <li style={{ marginTop: '-20px' }}>
+              Upload Movies to WatchList API
+            </li>
+            <li style={{ marginTop: '-20px' }}>Filter movie genres</li>
+          </ul>{' '}
           <Row>
             <Col>
               <h4 className="underline">Front-End</h4>
@@ -107,21 +113,20 @@ const WatchList = () => {
                 ></img>
               </div>
             </div>
+            <div className="project-buttons">
+              <a
+                href="https://github.com/dreamingofcode/Astro-Connect"
+                target="_blank"
+              >
+                <button style={{ marginRight: '50px' }}>
+                  Github Repository
+                </button>
+              </a>
 
-            <a
-              href="https://github.com/dreamingofcode/Astro-Connect"
-              target="_blank"
-            >
-              <button style={{ marginRight: '50px', color: 'black' }}>
-                Github Repository
-              </button>
-            </a>
-
-            <a href="https://youtu.be/g3UhHl7c57s" target="_blank">
-              <button style={{ marginRight: '50px', color: 'black' }}>
-                Watch Demo
-              </button>
-            </a>
+              <a href="https://youtu.be/g3UhHl7c57s" target="_blank">
+                <button style={{ marginRight: '50px' }}>Watch Demo</button>
+              </a>
+            </div>
           </div>{' '}
         </Col>
       </Row>

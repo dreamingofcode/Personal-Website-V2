@@ -4,6 +4,7 @@ import Travelly from './Travelly';
 import AstroConnection from './AstroConnection';
 import WatchList from './WatchList';
 import globe from '../icons/airplane.svg';
+import clapperBoard from '../icons/clapperboard.svg';
 import './projects.css';
 import '../responsive.css';
 
@@ -13,7 +14,7 @@ function Projects() {
       <h1>My Projects</h1>
       <Grid>
         <section className="projcts">
-          <Row>
+          <Row >
             <div className="travelly">
               <h2>
                 <img className="project-logo" src={globe} alt="travelly logo" />
@@ -23,15 +24,19 @@ function Projects() {
               <Travelly />
             </div>
           </Row>
-          <Row>
+          <Row >
             <div className="astro-connection">
               {/* <h2>Astro-Connection</h2> */}
               <AstroConnection />
             </div>
           </Row>
-          <Row>
+          <Row >
             <div className="watch-list">
-              <h2>Watch List</h2>
+              <h2>
+                {' '}
+                <img className="project-logo" src={clapperBoard} alt="watchlist logo" />
+                Watch List
+              </h2>
               <WatchList />
             </div>
           </Row>

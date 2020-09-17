@@ -7,7 +7,7 @@ function Education() {
       <h1>Education</h1>
       <Grid>
         <Row>
-          <Col  sm={12} md={12} lg={4}>
+          <Col sm={12} md={6} lg={4}>
             <div className="education-container">
               <p>
                 <strong>Flatiron School</strong>
@@ -21,20 +21,20 @@ function Education() {
               </h5>
             </div>
           </Col>
-          <Col  sm={12} md={12} lg={4}>
+          <Col sm={12} md={6} lg={4}>
             <div className="education-container">
               <p>
                 <strong>Online Courses</strong>
               </p>{' '}
               <h4>Ongoing</h4>
               <h5>
-                Udemy: Javascript Algorithms & Data Structures, Udemy: The
+                <strong>Java</strong>, Udemy: Javascript Algorithms & Data Structures, Udemy: The
                 Creative HTML5 & CSS3 Course, Hackerank, Coursera, etc. to level
                 up programming skills.
               </h5>
             </div>
           </Col>
-          <Col  sm={12} md={12} lg={4}>
+          <Col sm={12} md={12} lg={4}>
             <div className="education-container">
               <p>
                 <strong>Triton College</strong>
@@ -58,7 +58,7 @@ function Education() {
                   class="fas fa-desktop fa-4x"
                   style={{ marginTop: '15px' }}
                 ></i>
-                <h4 style={{ marginTop: '-2px' }}>Front-End</h4>
+                <h4>Front-End</h4>
                 <h5> HTML5</h5>
                 <h5>CSS3</h5>
                 <h5>Javascript-ES6</h5>
@@ -72,13 +72,10 @@ function Education() {
                   class="fas fa-share-alt fa-4x"
                   style={{ marginTop: '15px' }}
                 ></i>
-                <h4 style={{ marginTop: '-2px' }}>
-                  Server
-                  <h5>NodeJS</h5>
-                  <h5>Express</h5>
-                  <h5>Socket.IO</h5>
-                 
-                </h4>
+                <h4>Server </h4>
+                <h5>NodeJS</h5>
+                <h5>Express</h5>
+                <h5>Socket.IO</h5>
               </div>
             </Col>
             <Col sm={3} md={3} lg={3}>
@@ -87,7 +84,7 @@ function Education() {
                   class="fas fa-database fa-4x"
                   style={{ marginTop: '15px' }}
                 ></i>
-                <h4 style={{ marginTop: '-2px' }}>Database</h4>
+                <h4>Database</h4>
                 <h5>Ruby on Rails</h5>
                 <h5> PostgreSQL</h5>
                 <h5>mySQL</h5>
@@ -100,7 +97,7 @@ function Education() {
                   class="fas fa-cloud-upload-alt fa-4x"
                   style={{ marginTop: '15px' }}
                 ></i>{' '}
-                <h4 style={{ marginTop: '-2px' }}>Deployment</h4>
+                <h4>Deployment</h4>
                 <h5> Netlify</h5>
                 <h5> Heroku</h5>
               </div>

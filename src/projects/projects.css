@@ -4,33 +4,47 @@
 }
 #projects h1 {
   font-size: 8rem;
-  margin-top: 10rem;
+  margin-top: 15rem;
 }
-#projects p {
-  font-size: 2rem;
+.travelly ul{
+  text-align: left;
+}
+#projects li {
   margin-bottom: 2rem;
+  list-style: square;
+  font-size: 19px;
 }
 #projects h5 {
   margin-bottom: 2rem;
+
 }
 #projects a button {
   display: inline-flex;
   text-align: center;
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
-.project-logo{
+#projects a button:hover {
+ background: #000000;
+ color: white;
+}
+.project-logo {
   height: 80px;
   margin-right: 2rem;
-margin-bottom: -2rem;
+  margin-bottom: -2rem;
 }
 .projcts {
   margin-top: 10rem;
 }
-.projcts h2{
+.projcts h2 {
   text-decoration: underline;
-
+  font-size: 7rem;
 }
-
+.projcts p {
+margin-bottom: 2rem;
+}
+.projcts h4 {
+  font-size: 22px;
+}
 .travelly h2 {
   margin-bottom: 4rem;
 }
@@ -43,13 +57,12 @@ margin-bottom: -2rem;
   text-align: left;
   margin-left: -7rem;
   margin-right: -7rem;
-
 }
 .astro-connection h2 {
   text-align: left;
   margin-bottom: 2rem;
 }
-.watch-list h2{
+.watch-list h2 {
   text-align: left;
   margin-bottom: 2rem;
   margin-top: 10rem;
@@ -64,6 +77,7 @@ margin-bottom: -2rem;
   margin-bottom: 100px;
   border: 1px solid #f1f1f1;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  text-align: center;
 }
 
 /* This container is needed to position the front and back side */
@@ -111,5 +125,7 @@ margin-bottom: -2rem;
   margin-right: 10rem;
   margin-top: 2rem;
 }
-
+#projects  p{
+  font-size: 2rem;
+}
 /* Extra small devices (phones, 600px and down) */

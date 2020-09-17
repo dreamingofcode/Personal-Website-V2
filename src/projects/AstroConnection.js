@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Row, Col } from 'react-flexbox-grid';
-// import './portfolio.css';
+import universe from '../icons/tarot.svg';
 
 import astroConnection from '../images/astroConnection.png';
 const AstroConnection = () => {
@@ -18,8 +18,17 @@ const AstroConnection = () => {
   };
   return (
     <React.Fragment>
-       
       <div className="mobile">
+        <h2>
+          {' '}
+          <img
+            src={universe}
+            alt="astro-connection logo"
+            className="project-logo"
+          />
+          Astro-Connection
+        </h2>
+
         <img
           className="mobile-gif"
           src="https://media.giphy.com/media/l0od7tThpTldB4whck/giphy.gif"
@@ -27,13 +36,15 @@ const AstroConnection = () => {
           height="300px"
         />
         <br />
-        <button
-          onClick={() => {
-            toggleVideo();
-          }}
-        >
-          {videoButton}
-        </button>
+        <a>
+          <button
+            onClick={() => {
+              toggleVideo();
+            }}
+          >
+            {videoButton}
+          </button>
+        </a>
         <a
           href="https://github.com/dreamingofcode/Astro-Connect"
           target="_blank"
@@ -53,10 +64,8 @@ const AstroConnection = () => {
           <button>Visit Website</button>
         </a>
       </div>
-
       <Row>
         <Col sm={12} md={12} lg={6}>
-      
           <div className="flip-card cookie">
             <div className="flip-card-inner ">
               <div className="flip-card-front ">
@@ -67,7 +76,7 @@ const AstroConnection = () => {
                 />
                 <h5>
                   {' '}
-                  A social-Networking expirience infused with zodiac
+                  A social-Networking experience infused with zodiac
                   compatibility matching! Get your daily and general horoscope
                   reading today!
                 </h5>
@@ -85,43 +94,55 @@ const AstroConnection = () => {
               href="https://github.com/dreamingofcode/Astro-Connect"
               target="_blank"
             >
-              <button style={{ marginRight: '50px', color: 'black' }}>
-                Github Repository
-              </button>
+              <button style={{ marginRight: '20px' }}>Github Repository</button>
             </a>
 
             <a href="https://astr-connection.herokuapp.com/" target="_blank">
-              <button style={{ marginRight: '50px', color: 'black' }}>
-                Visit Site
-              </button>
+              <button style={{ marginRight: '20px' }}>Visit Site</button>
             </a>
 
             <a
               href="https://www.youtube.com/watch?v=leuY6ShOFBA&t=60s"
               target="_blank"
             >
-              <button style={{ marginRight: '50px', color: 'black' }}>
-                Watch Demo
-              </button>
+              <button style={{ marginRight: '0px' }}>Watch Demo</button>
             </a>
           </div>{' '}
         </Col>
         <Col sm={12} md={12} lg={6}>
-        <h2>Astro-Connection</h2>
+          <h2 className="astro-title">
+            {' '}
+            <img
+              src={universe}
+              alt="astro-connection logo"
+              className="project-logo"
+            />
+            Astro-Connection
+          </h2>
           <p>RUBY + REACT + EXPRESS FULL-STACK WEB APP</p>
           <h5>
             A social-Networking experience infused with zodiac compatibility
             matching! Get your daily and general horoscope reading today!
           </h5>
           <h4 className="underline">Features</h4>
-          <p style={{ marginTop: '-20px' }}>User Account CRUD actions</p>
-          <p style={{ marginTop: '-15px' }}>Daily Horoscope Reading</p>
-          <p style={{ marginTop: '-20px' }}>General Horsocope Reading</p>
-          <p style={{ marginTop: '-20px' }}>
-            Horoscope-match compatibility calculator
-          </p>
-          <p style={{ marginTop: '-20px' }}>User Image upload</p>
-          <p style={{ marginTop: '-20px' }}>Instant Messaging and Chat-rooms</p>
+          <ul>
+            <li style={{ marginTop: '-20px' }}>
+              User Authentication via JWT token{' '}
+            </li>
+            <li style={{ marginTop: '-20px' }}>User account CRUD actions</li>
+            <li style={{ marginTop: '-20px' }}>Daily Horoscope reading</li>
+            <li style={{ marginTop: '-20px' }}>General Horsocope reading</li>
+            <li style={{ marginTop: '-20px' }}>
+              Horoscope-match compatibility calculator
+            </li>
+            <li style={{ marginTop: '-20px' }}>User image upload</li>
+            <li style={{ marginTop: '-20px' }}>
+              Instant messaging and chat-rooms
+            </li>
+            <li style={{ marginTop: '-20px' }}>
+              View and filter through other user accounts
+            </li>
+          </ul>{' '}
           <Row>
             <Col>
               <h4 className="underline">Front-End</h4>
