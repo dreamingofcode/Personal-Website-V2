@@ -2,9 +2,10 @@ import React from 'react';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 import Travelly from './Travelly';
 import AstroConnection from './AstroConnection';
-import WatchList from './WatchList'
+import WatchList from './WatchList';
+import globe from '../icons/airplane.svg';
 import './projects.css';
-import '../responsive.css'
+import '../responsive.css';
 
 function Projects() {
   return (
@@ -14,7 +15,11 @@ function Projects() {
         <section className="projcts">
           <Row>
             <div className="travelly">
-              <h2>Travelly</h2>
+              <h2>
+                <img className="project-logo" src={globe} alt="travelly logo" />
+                Travelly
+              </h2>
+
               <Travelly />
             </div>
           </Row>
@@ -31,7 +36,6 @@ function Projects() {
             </div>
           </Row>
         </section>
-     
       </Grid>
     </div>
   );

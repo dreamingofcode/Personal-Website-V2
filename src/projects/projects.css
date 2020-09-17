@@ -4,7 +4,7 @@
 }
 #projects h1 {
   font-size: 8rem;
-  margin-top: 30rem;
+  margin-top: 10rem;
 }
 #projects p {
   font-size: 2rem;
@@ -18,13 +18,21 @@
   text-align: center;
   margin-top: 2rem;
 }
-
+.project-logo{
+  height: 80px;
+  margin-right: 2rem;
+margin-bottom: -2rem;
+}
 .projcts {
   margin-top: 10rem;
 }
+.projcts h2{
+  text-decoration: underline;
+
+}
 
 .travelly h2 {
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 .travelly-flip-card {
   width: 513px;
@@ -40,7 +48,6 @@
 .astro-connection h2 {
   text-align: left;
   margin-bottom: 2rem;
-  /* margin-right: 10rem; */
 }
 .watch-list h2{
   text-align: left;
@@ -102,6 +109,7 @@
   text-decoration: underline;
   margin-bottom: 2rem;
   margin-right: 10rem;
+  margin-top: 2rem;
 }
 
 /* Extra small devices (phones, 600px and down) */

@@ -320,7 +320,7 @@ nav ul {
   height: 150px;
   width: 150px;
   object-fit: cover;
-  margin-top: -2rem;
+  /* margin-top: -2rem; */
 }
 .contact-symbol {
   height: 23px;
@@ -344,18 +344,23 @@ nav ul {
 }
 .contact-info {
   margin-top: 1rem;
-  margin-bottom: 5rem;
+  margin-bottom: 7rem;
   text-align: left;
 }
-
+.contact-info h3{
+  margin-top: 3rem;
+}
 #contact a h6 {
-  display: inline;
+  display: inline-block;
   border: black 2px solid;
   border-radius: 15px;
   margin-right: 5rem;
-  padding: 2rem;
+  margin-bottom: 2rem;
+  padding: 3rem;
   max-width: 100px;
   vertical-align: middle;
+ min-width: 140px;
+ max-height: 90px;
 }
 #contact a h6:hover {
   background: black;
@@ -378,7 +383,7 @@ nav ul {
   flex-direction: row;
   text-align: center;
   margin: auto;
-  margin-top: 13rem;
+  margin-top: 8rem;
 }
 
 .form-section form {
@@ -498,7 +503,7 @@ footer h6{
 .initial-about-me {
   font-weight: 600;
   text-align: left;
-  margin-top: -4rem;
+  /* margin-top: -4rem; */
 }
 
 .me {

@@ -17,16 +17,16 @@ function Contact() {
             next project? Let's connect!
           </strong>
         </p>{' '}
-        <Row center="lg">
-          <Col sm={6} md={6} lg={3}>
+        <Row center="xs" center="sm" center="lg">
+          <Col xs={5} sm={6} md={6} lg={3}>
             <div className="contact-info">
               <img src={me} alt="headshot of cesar" className="headshot" />
             </div>{' '}
           </Col>{' '}
-          <Col sm={6} md={6} lg={4}>
+          <Col xs={7} sm={6} md={6} lg={4}>
             <div className="contact-info">
+                <h3>Cesar Mota</h3>
               <p>
-                <p>Cesar Mota</p>
                 <img
                   className="contact-symbol"
                   src={phone}
@@ -41,48 +41,63 @@ function Contact() {
             </div>
           </Col>
         </Row>{' '}
-        <a href="https://www.linkedin.com/in/cesar-mota365/" target="_blank">
-          <h6>
-            {' '}
-            <i class="fab fa-linkedin fa-2x"></i> LinkedIn
-          </h6>
-        </a>
-        <a href="https://github.com/dreamingofcode" target="_blank">
-          {' '}
-          <h6>
-            {' '}
-            <i className="fab fa-github-square fa-2x"></i> Github
-          </h6>
-        </a>
-        <a
-          href="https://www.canva.com/design/DADtArBgofY/owdWTSezIHEjPMvjqDH8lg/view?utm_content=DADtArBgofY&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton"
-          target="_blank"
-          download
-        >
-          {' '}
-          <h6>
-            {' '}
-            <i class="fas fa-file fa-2x"></i> Resume
-          </h6>
-        </a>
-        <a href="https://medium.com/@cesarmota922" target="_blank">
-          <h6>
-            {' '}
-            <i class="fab fa-medium fa-2x"></i> Medium
-          </h6>
-        </a>
-        <a
-          href="https://www.youtube.com/channel/UCsNK4HxeZ6zQFtOUA0TsbmQ/videos?view_as=subscriber"
-          target="_blank"
-        >
-          <h6>
-            {' '}
-            <i class="fab fa-youtube fa-2x"></i> Youtube
-          </h6>
-        </a>
+        <Row center="sm" center="xs" center="md" center="lg">
+           <Col sm={12} md={12} lg={12}>
+            <a
+              href="https://www.linkedin.com/in/cesar-mota365/"
+              target="_blank"
+            >
+              <h6>
+                {' '}
+                <i class="fab fa-linkedin fa-2x"></i> LinkedIn
+              </h6>
+            </a>
+          {/* </Col>
+           <Col sm={6} md={6} lg={4}> */}
+            <a href="https://github.com/dreamingofcode" target="_blank">
+              {' '}
+              <h6>
+                {' '}
+                <i className="fab fa-github-square fa-2x"></i> Github
+              </h6>
+            </a>
+          {/* </Col>
+           <Col sm={6} md={6} lg={4}> */}
+            <a
+              href="https://www.canva.com/design/DADtArBgofY/owdWTSezIHEjPMvjqDH8lg/view?utm_content=DADtArBgofY&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton"
+              target="_blank"
+              download
+            >
+              {' '}
+              <h6>
+                {' '}
+                <i class="fas fa-file fa-2x"></i> Resume
+              </h6>
+            </a>{' '}
+          {/* </Col>
+           <Col sm={6} md={6} lg={4}> */}
+            <a href="https://medium.com/@cesarmota922" target="_blank">
+              <h6>
+                {' '}
+                <i class="fab fa-medium fa-2x"></i> Medium
+              </h6>
+            </a>{' '}
+          {/* </Col>
+           <Col sm={6} md={6} lg={4}> */}
+            <a
+              href="https://www.youtube.com/channel/UCsNK4HxeZ6zQFtOUA0TsbmQ/videos?view_as=subscriber"
+              target="_blank"
+            >
+              <h6>
+                {' '}
+                <i class="fab fa-youtube fa-2x"></i> Youtube
+              </h6>
+            </a>
+          </Col>
+        </Row>
         <Row>
           <section class="form-section">
-            <Col>
+             <Col sm={12} md={12} lg={12}>
               <form>
                 <label for="name">Name</label>
                 <input type="text" name="name" id="name" required />

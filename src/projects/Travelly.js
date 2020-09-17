@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Row, Col } from 'react-flexbox-grid';
-
 import './projects.css';
 import travelly from '../images/travelly.png';
+
 const Travelly = () => {
   const [videoPlayer, setVideoPlayer] = useState('none');
   const [videoButton, setVideoButton] = useState('View Demo');
@@ -39,13 +39,13 @@ const Travelly = () => {
       <Row>
         <Col sm={12} md={12} lg={6}>
           <p>RUBY + REACT FULL-STACK WEB APP</p>
-          <h5>
+          <h4>
             All your travel needs in one place! Search for real-time Flight and
             Hotel information in order to get the best deals avail able. Never
             go bored while on vacation again! Find Restaurants and Attractions
             anywhere you go with Travelly!
-          </h5>
-          <h4 className="underline">Features</h4>
+          </h4>
+          <h3 className="underline">Features</h3>
           <p style={{ marginTop: '-20px' }}>Mobile Responsive</p>
 
           <p style={{ marginTop: '-20px' }}>User Account CRUD actions</p>
@@ -70,7 +70,7 @@ const Travelly = () => {
           </p>
           <Row>
             <Col sm={3} md={6} lg={6}>
-              <h4 className="underline">Front-End</h4>
+              <h3 className="underline">Front-End</h3>
               <p style={{ marginTop: '-20px' }}>CSS</p>
               <p style={{ marginTop: '-20px' }}>HTML</p>
               <p style={{ marginTop: '-20px' }}>React</p>
@@ -79,7 +79,7 @@ const Travelly = () => {
               <p style={{ marginTop: '-20px' }}>Bootstrap</p>
             </Col>{' '}
             <Col sm={3} md={6} lg={6}>
-              <h4 className="underline">Back-End</h4>
+              <h3 className="underline">Back-End</h3>
               <p style={{ marginTop: '-20px' }}>Ruby on Rails</p>
               <p style={{ marginTop: '-20px' }}>mySQL</p>
               <p style={{ marginTop: '-20px' }}>Skyscanner External API</p>
