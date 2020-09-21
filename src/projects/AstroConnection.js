@@ -1,8 +1,9 @@
-import React, { useState} from 'react';
+import React, { useState } from 'react';
 import { Row, Col } from 'react-flexbox-grid';
 import universe from '../icons/tarot.svg';
 
 import astroConnection from '../images/astroConnection.png';
+import Contact from '../contact';
 const AstroConnection = () => {
   const [videoPlayer, setVideoPlayer] = useState('none');
   const [videoButton, setVideoButton] = useState('View Demo');
@@ -19,50 +20,70 @@ const AstroConnection = () => {
   return (
     <React.Fragment>
       <div className="mobile">
-        <h2>
-          {' '}
-          <img
-            src={universe}
-            alt="astro-connection logo"
-            className="project-logo"
-          />
-          Astro-Connection
-        </h2>
-
-        <img
-          className="mobile-gif"
-          src="https://media.giphy.com/media/l0od7tThpTldB4whck/giphy.gif"
-          alt="Astro-Connection Gif presentation"
-          height="300px"
-        />
-        <br />
-        <a>
-          <button
-            onClick={() => {
-              toggleVideo();
-            }}
-          >
-            {videoButton}
-          </button>
-        </a>
-        <a
-          href="https://github.com/dreamingofcode/Astro-Connect"
-          target="_blank"
-        >
-          <iframe
-            style={{ display: `${videoPlayer}` }}
-            width="fit-content"
-            height="fit-content"
-            src="https://www.youtube.com/embed/leuY6ShOFBA?controls=0&amp;start=60"
-            frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          />
-          <button>Github Repository</button>
-        </a>
-        <a href="https://astr-connection.herokuapp.com/" target="_blank">
-          <button>Visit Website</button>
-        </a>
+        <Row center="sm" center="xs">
+          <h2>
+            {' '}
+            <img
+              src={universe}
+              alt="astro-connection logo"
+              className="project-logo"
+            />
+            Astro-Connection
+          </h2>
+        </Row>
+        <Row center="sm" center="xs">
+          <Col sm={12} xs={12} md={12}>
+            <img
+              className="mobile-gif"
+              src="https://media.giphy.com/media/l0od7tThpTldB4whck/giphy.gif"
+              alt="Astro-Connection Gif presentation"
+              height="300px"
+            />
+          </Col>
+        </Row>
+      
+        <Row center="xs" >
+        
+          <Col xs={8} sm={12} md={6}>
+            <button
+              onClick={() => {
+                toggleVideo();
+              }}
+            >
+              {videoButton}
+            </button>
+          </Col>
+          <Col xs={12} sm={12} md={12} lg={12}>
+            <iframe
+              style={{ display: `${videoPlayer}` }}
+              width="fit-content"
+              height="fit-content"
+              src="https://www.youtube.com/embed/leuY6ShOFBA?controls=0&amp;start=60"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            />
+          </Col>
+          <Col xs={8} sm={12} md={6}>
+            <button>
+              {' '}
+              <a
+                href="https://github.com/dreamingofcode/Astro-Connect"
+                target="_blank"
+              >
+                Github Repository{' '}
+              </a>
+            </button>
+          </Col>
+          <Col xs={8} sm={12} md={6}>
+            <button>
+              {' '}
+              <a href="https://astr-connection.herokuapp.com/" target="_blank">
+                Visit Website
+              </a>
+            </button>
+          </Col>
+        </Row>
       </div>
       <Row>
         <Col sm={12} md={12} lg={6}>
@@ -144,7 +165,7 @@ const AstroConnection = () => {
             </li>
           </ul>{' '}
           <Row>
-            <Col>
+            <Col sm={3} md={6} lg={6}>
               <h4 className="underline">Front-End</h4>
 
               <p style={{ marginTop: '-20px' }}>CSS</p>
@@ -156,7 +177,7 @@ const AstroConnection = () => {
                 Socket.IO
               </p>
             </Col>
-            <Col>
+            <Col sm={3} md={6} lg={6}>
               <h4 className="underline">Back-End</h4>
               <p style={{ marginTop: '-20px' }}>Ruby on Rails</p>
               <p style={{ marginTop: '-20px' }}>PostgreSQL</p>

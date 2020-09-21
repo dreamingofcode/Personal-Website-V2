@@ -1,13 +1,20 @@
 .mobile {
   text-align: center;
+  width: 90%;
+  margin: auto;
 }
-.mobile a button {
-  margin: 2rem;
+.mobile button {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   padding: 1rem;
-  display: block;
   min-width: 180px;
-min-height: 50px;
-  text-align: center;
+}
+.mobile button:hover {
+  background: black;
+  color: white;
+}
+.mobile a:hover {
+  color: white;
 }
 @media screen and (max-width: 1110px) {
   #projects .flip-card {
@@ -15,9 +22,8 @@ min-height: 50px;
   }
   .astro-title {
     display: none;
-  
   }
-#projects h2{
+  #projects h2 {
     text-align: center;
   }
 }
@@ -43,10 +49,10 @@ min-height: 50px;
     display: flex;
   }
 
-  .mobile-cell {
+  /* .mobile-cell {
     margin-top: 100px;
     padding-top: -200px;
-  }
+  } */
   .easel {
     /* display: inline; */
   }
@@ -134,7 +140,7 @@ min-height: 50px;
   .header {
     display: none;
   }
-  .mobile-header {
+  /* .mobile-header {
     background-color: rgba(58, 64, 97, 0.438);
   }
   .mobile-cell {
@@ -143,7 +149,7 @@ min-height: 50px;
   }
   .mobile-language-icons {
     display: none;
-  }
+  } */
 
   .card {
     width: 100px;
@@ -153,12 +159,12 @@ min-height: 50px;
     display: none;
   }
 
-  .mobile-cell {
+  /* .mobile-cell {
     margin-bottom: 00px;
   }
   .mobile-language-icons {
     display: none;
-  }
+  } */
 
   .card {
     width: 100px;
@@ -176,7 +182,7 @@ min-height: 50px;
   .header {
     display: none;
   }
-  .mobile-cell {
+  /* .mobile-cell {
     margin-top: 100px;
   }
 
@@ -188,7 +194,7 @@ min-height: 50px;
   }
   .mobile {
     margin-bottom: 100px;
-  }
+  } */
   .cell {
     margin-top: 190px;
   }
@@ -201,19 +207,19 @@ min-height: 50px;
   .header {
     display: none;
   }
-  .mobile-cell {
+  /* .mobile-cell {
     margin-top: 100px;
   }
   .mobile {
     margin-bottom: 100px;
-  }
+  } */
   /* for project gif responsiveness */
-  .mobile-gif {
+  /* .mobile-gif {
     height: 330px;
     width: 400px;
     margin-top: 30px;
     margin-bottom: 10px;
-  }
+  } */
 
   .flip-card button {
     display: inline;
@@ -225,9 +231,8 @@ min-height: 50px;
   .flip-card {
     display: none;
   }
-  .mobile-cell {
+  /* .mobile-cell {
     margin-top: 100px;
-    /* padding-top: -200px; */
   }
 
   .mobile-gif {
@@ -240,7 +245,7 @@ min-height: 50px;
     margin-bottom: 100px;
 
     display: inline-flex;
-  }
+  } */
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -249,16 +254,14 @@ min-height: 50px;
     max-width: 600px;
   }
 
-  .mobile-gif {
+  /* .mobile-gif {
     min-width: 700px;
     min-height: 350px;
-  }
+  } */
 
   .flip-card {
     display: inline-block;
-
   }
- 
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -270,9 +273,20 @@ min-height: 50px;
     display: none;
   }
 }
-@media only screen and (max-width: 400px) {
-  #projects{
+@media only screen and (max-width: 450px) {
+  #projects {
     width: 90%;
     margin: auto;
+  }
+  .astro-connection h5,
+  .astro-connection h4,
+  .astro-connection p,
+  .astro-connection ul {
+    margin-left: 10rem;
+    margin-right: 7rem;
+  }
+
+  .intro-text {
+    margin-top: 30rem;
   }
 }

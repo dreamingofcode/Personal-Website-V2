@@ -52,11 +52,11 @@ const WatchList = () => {
       <Row>
         <Col sm={12} md={12} lg={6}>
           <p>RUBY + REACT FULL-STACK WEB APP</p>
-          <h5>
+          <h4>
             A social-Networking experience infused with zodiac compatibility
             matching! Get your daily and general horoscope reading today!
-          </h5>
-          <h4 className="underline">Features</h4>
+          </h4>
+          <h3 className="underline">Features</h3>
           <ul>
             <li style={{ marginTop: '-20px' }}>User Account CRUD actions</li>
             <li style={{ marginTop: '-20px' }}>User Authentication</li>
@@ -73,14 +73,14 @@ const WatchList = () => {
             <li style={{ marginTop: '-20px' }}>Filter movie genres</li>
           </ul>{' '}
           <Row>
-            <Col>
+            <Col sm={3} md={6} lg={6}>
               <h4 className="underline">Front-End</h4>
               <p style={{ marginTop: '-20px' }}>Javascript</p>
               <p style={{ marginTop: '-20px' }}>Bootstrap</p>
               <p style={{ marginTop: '-20px' }}>CSS</p>
               <p style={{ marginTop: '-20px' }}>HTML</p>
             </Col>
-            <Col>
+            <Col sm={3} md={6} lg={6}>
               <h4 className="underline">Back-End</h4>
               <p style={{ marginTop: '-20px' }}>Ruby on Rails</p>
               <p style={{ marginTop: '-20px' }}>PostgreSQL</p>

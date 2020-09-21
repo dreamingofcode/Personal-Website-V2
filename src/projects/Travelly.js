@@ -29,24 +29,29 @@ const Travelly = () => {
             />
           </Col>
         </Row>
-        <Row>
+        <Row  center="xs">
           {' '}
-          <br />
-          <Col xs={6} sm={6} md={6}>
-            <a
-              href="https://nervous-lovelace-0d5b8e.netlify.app/"
-              target="_blank"
-            >
-              <button style={{ marginRight: '50px' }}>Visit Site</button>
-            </a>
+      
+          <Col xs={8} sm={12} md={6}>
+            <button style={{ marginRight: '50px' }}>
+              <a
+                href="https://nervous-lovelace-0d5b8e.netlify.app/"
+                target="_blank"
+              >
+                {' '}
+                Visit Site{' '}
+              </a>
+            </button>
           </Col>
-          <Col xs={6} sm={6} md={6}>
-            <a
-              href="https://github.com/dreamingofcode/Travelly"
-              target="_blank"
-            >
-              <button>Github Repository</button>
-            </a>
+          <Col xs={8} sm={12} md={6}>
+            <button>
+              <a
+                href="https://github.com/dreamingofcode/Travelly"
+                target="_blank"
+              >
+                Github Repository{' '}
+              </a>
+            </button>
           </Col>
         </Row>
       </div>
