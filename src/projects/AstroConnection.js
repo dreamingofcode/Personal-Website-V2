@@ -118,7 +118,7 @@ const AstroConnection = () => {
               <button style={{ marginRight: '20px' }}>Github Repository</button>
             </a>
 
-            <a href="https://astr-connection.herokuapp.com/" target="_blank">
+            <a href="https://festive-clarke-a1ebb2.netlify.app/" target="_blank">
               <button style={{ marginRight: '20px' }}>Visit Site</button>
             </a>
 
