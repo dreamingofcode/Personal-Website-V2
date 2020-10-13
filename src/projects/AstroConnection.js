@@ -78,7 +78,7 @@ const AstroConnection = () => {
           <Col xs={8} sm={12} md={6}>
             <button>
               {' '}
-              <a href="https://astr-connection.herokuapp.com/" target="_blank">
+              <a href="https://festive-clarke-a1ebb2.netlify.app/" target="_blank">
                 Visit Website
               </a>
             </button>
